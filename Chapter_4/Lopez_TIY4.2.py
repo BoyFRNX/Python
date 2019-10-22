@@ -1,4 +1,4 @@
-pizzas = ['pepperoni', 'sausage', 'meat lovers']
-for pizza in pizzas:
-    print(f"I love {pizza} pizza!\n")
-print("I love all types of pizza!")
+animals = ['cat', 'dog', 'bunny']
+for animal in animals:
+    print(f"A {animal} would make a great pet!\n")
+print("Any of these animals would make a great pet!")

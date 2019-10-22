@@ -1,4 +1,3 @@
-pizzas = ['pepperoni', 'sausage', 'meat lovers']
-for pizza in pizzas:
-    print(f"I love {pizza} pizza!\n")
-print("I love all types of pizza!")
+one_million = list(range(1,1000001))
+for val in one_million:
+    print(val)

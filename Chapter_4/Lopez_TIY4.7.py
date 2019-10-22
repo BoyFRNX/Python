@@ -1,4 +1,2 @@
-pizzas = ['pepperoni', 'sausage', 'meat lovers']
-for pizza in pizzas:
-    print(f"I love {pizza} pizza!\n")
-print("I love all types of pizza!")
+for num in range(3,31,3):
+    print(num)

@@ -1,4 +1,5 @@
-pizzas = ['pepperoni', 'sausage', 'meat lovers']
-for pizza in pizzas:
-    print(f"I love {pizza} pizza!\n")
-print("I love all types of pizza!")
+num = list(range(1,22))
+print(num)
+print(f"The first 3 items in this list are: {num[:3]}")
+print(f"The middle 3 items in this list are: {num[9:12]}")
+print(f"The last 3 items in this list are: {num[-3:]}")

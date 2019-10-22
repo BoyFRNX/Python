@@ -1,4 +1,4 @@
-pizzas = ['pepperoni', 'sausage', 'meat lovers']
-for pizza in pizzas:
-    print(f"I love {pizza} pizza!\n")
-print("I love all types of pizza!")
+one_million = list(range(1,1000001))
+print(min(one_million))
+print(max(one_million))
+print(sum(one_million))
