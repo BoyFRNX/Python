@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0cd7d332-cd3f-4c2b-b066-e7a5e0e84b1b" name="Default Changelist" comment="" />
+    <list default="true" id="0cd7d332-cd3f-4c2b-b066-e7a5e0e84b1b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Chapter_4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_4/Lopez_TIY4.10.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_4/Lopez_TIY4.10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_4/Lopez_TIY4.11.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_4/Lopez_TIY4.11.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_4/Lopez_TIY4.12.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_4/Lopez_TIY4.12.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_4/Lopez_TIY4.2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_4/Lopez_TIY4.2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_4/Lopez_TIY4.3.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_4/Lopez_TIY4.3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_4/Lopez_TIY4.4.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_4/Lopez_TIY4.4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_4/Lopez_TIY4.5.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_4/Lopez_TIY4.5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_4/Lopez_TIY4.6.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_4/Lopez_TIY4.6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_4/Lopez_TIY4.7.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_4/Lopez_TIY4.7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_4/Lopez_TIY4.8.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_4/Lopez_TIY4.8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_4/Lopez_TIY4.9.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_4/Lopez_TIY4.9.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,9 +28,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1SFLPNDTAjD6u60Qpm6JCNiQf53" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Chapter_4" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pathVariables" />
   </component>
   <component name="RecentsManager">
@@ -155,5 +172,16 @@
   </component>
   <component name="SvnConfiguration">
     <configuration />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
