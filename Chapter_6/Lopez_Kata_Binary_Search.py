@@ -14,11 +14,12 @@ def binary_search_iterative(array, x, lo=0, hi=None):  # can't use array to spec
         return -1  # don't walk off the end
 
 
-numbers = list(range(1, 210000000))
+numbers = list(range(1, 11))
 print("Input the list and number you want to index:")
-arr = input("List:")
+arr1 = input("List:")
+arr = globals()[arr1]
 num = int(input("Number:"))
-print(f"Index of {num} in {arr}: {binary_search_iterative(numbers, num)}")
+print(f"Index of {num} in {arr1}: {binary_search_iterative(arr, num)}")
 
 
 # Second Attempt: (recursive function using bisect function)
