@@ -14,8 +14,9 @@ def binary_search_iterative(array, x, lo=0, hi=None):  # can't use array to spec
         return -1  # don't walk off the end
 
 
-numbers = list(range(1, 11))
-print("Input the list and number you want to index:")
+numbers = list(range(1, 210000000))
+
+print("(Binary Search Iterative) Input the list and number you want to index:")
 arr1 = input("List:")
 arr = globals()[arr1]
 num = int(input("Number:"))
@@ -36,9 +37,9 @@ def binary_search_recursive(array, x, lo=0, hi=None):
         return -1
 
 
+print("\n(Binary Search Recursive) Input the list and number you want to index:")
 print("Input the list and number you want to index:")
-print("List:")
-arr = input()
-print("Number:")
-num = int(input())
-print(f"Index of {num} in {arr}: {binary_search_iterative(arr, num)}")
+arr1 = input("List:")
+arr = globals()[arr1]
+num = int(input("Number:"))
+print(f"Index of {num} in {arr1}: {binary_search_iterative(arr, num)}")
