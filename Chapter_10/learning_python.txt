@@ -1,0 +1,3 @@
+In Python you can create loops that repeat an action until a condition is met.
+In Python you can create Classes and objects that simulate real-world situations.
+In Python you can take inputs and analyze them.
