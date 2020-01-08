@@ -19,7 +19,7 @@ y_values = [results.count(value) for value in x_values]
 plt.title('Rolling a D6 die 1000 times')
 plt.ylabel('Frequency')
 plt.xlabel('Number Rolled')
-plt.tick_params(axis='both', which='all')
+plt.xticks(x_values)
 
 # Plug in numbers to the plot.
 plt.bar(x_values, y_values)
