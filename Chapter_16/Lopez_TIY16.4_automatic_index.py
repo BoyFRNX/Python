@@ -10,9 +10,9 @@ with open(filename) as f:
     header_row = next(reader)
 
     # Automate temperature and station name indexes.
-    TMAX = ''
-    TMIN = ''
-    NAME = ''
+    tmax = ''
+    tmin = ''
+    name = ''
     station_name = ''
     for index, column_value in enumerate(header_row):
         if column_value == 'TMAX':

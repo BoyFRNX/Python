@@ -1,12 +1,18 @@
 <component name="ProjectDictionaryState">
   <dictionary name="lope512q09">
     <words>
+      <w>avgs</w>
+      <w>lons</w>
       <w>prcp</w>
+      <w>prcps</w>
+      <w>scattergeo</w>
       <w>seaborn</w>
       <w>sitka</w>
       <w>tavg</w>
+      <w>tavgs</w>
       <w>tmax</w>
       <w>tmin</w>
+      <w>tobs</w>
     </words>
   </dictionary>
 </component>
