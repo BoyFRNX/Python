@@ -1,10 +1,10 @@
 import requests
-from plotly.graph_objs import Bar
 from plotly import offline
 
 
 # Make an API call and store the response.
-url = 'https://api.github.com/search/repositories?q=language:python&sort=stars'
+language = 'ruby'
+url = f'https://api.github.com/search/repositories?q=language:{language}&sort=stars'
 headers = {'Accept': 'application/vnd.github.v3+json'}
 r = requests.get(url, headers=headers)
 print(f"Status code: {r.status_code}")
@@ -39,7 +39,7 @@ data = [{
 }]
 
 my_layout = {
-    'title': 'Most-Starred Python Projects on Github',
+    'title': f'Most-Starred {language.title()} Projects on Github',
     'title_x': 0.5,
     'xaxis': {
         'title': 'Repository',

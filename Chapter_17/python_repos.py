@@ -1,13 +1,21 @@
 import requests
 
+
 # Make an API call and store the response.
 url = 'https://api.github.com/search/repositories?q=language:python&sort=stars'
 headers = {'Accept': 'application/vnd.github.v3+json'}
-r = requests.get(url, headers=headers)
-print(f"Status code: {r.status_code}")
+
+
+def get_request():
+    """Gets request from url."""
+    return requests.get(url, headers=headers)
+
+
+r = get_request()
 
 # Store API response in a variable.
 response_dict = r.json()
+
 print(f"Total repositories: {response_dict['total_count']}")
 
 # Explore information about the repositories.
